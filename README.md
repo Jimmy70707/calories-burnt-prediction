@@ -52,4 +52,38 @@ This project aims to provide a more personalized calorie estimation using machin
 ---
 
 ## Project Structure
+calories-burnt-prediction/
+│
+├── app.py # Streamlit application
+├── Calories_Burnt_Prediction.ipynb# Model training and experimentation
+├── calories_model.pkl # Trained ML model
+├── requirements.txt # Project dependencies
 
+## How to Run the Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jimmy70707/calories-burnt-prediction.git
+cd calories-burnt-prediction
+
+2.Install dependencies:
+pip install -r requirements.txt
+
+3.streamlit run app.py
+4.Open the provided local URL in your browser.
+```
+Input Parameters
+
+Gender
+
+Age
+
+Height (cm)
+
+Weight (kg)
+
+Exercise Duration (minutes)
+
+Heart Rate
+
+Body Temperature (°C)
